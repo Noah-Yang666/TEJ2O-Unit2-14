@@ -21,35 +21,35 @@ input.onButtonPressed(Button.A, function () {
     loopCounterX = 0
     loopCounterY = 0
 
-// moving sprite right
+    // moving sprite right
     while (loopCounterY <=4) {
         sprite.set(LedSpriteProperty.X, loopCounterY)
         loopCounterY +=1
         basic.pause(300)
     }
 
-// moving sprite down
+    // moving sprite down
     while (loopCounterX <= 4) {
         sprite.set(LedSpriteProperty.Y, loopCounterX)
         loopCounterX +=1
         basic.pause(300)
     }
 
-// moving sprite left
+    // moving sprite left
     while (loopCounterY >= 0) {
         sprite.set(LedSpriteProperty.X, loopCounterY)
         loopCounterY -=1
         basic.pause(300)
     }
 
-// moving sprite up
+    // moving sprite up
     while (loopCounterX >= 0) {
         sprite.set(LedSpriteProperty.Y, loopCounterX)
         loopCounterX -=1
         basic.pause(300)
     }
 
-// resetting
+    // resetting
     sprite.delete()
     basic.clearScreen()
     basic.showIcon(IconNames.Happy)
@@ -62,35 +62,35 @@ input.onButtonPressed(Button.B, function () {
     loopCounterX = 0
     loopCounterY = 0
 
-// moving sprite down
+    // moving sprite down
     while (loopCounterX <= 4) {
         sprite.set(LedSpriteProperty.Y, loopCounterX)
         loopCounterX +=1
         basic.pause(300)
     }
 
-// moving sprite right
+    // moving sprite right
     while (loopCounterY <= 4) {
         sprite.set(LedSpriteProperty.X, loopCounterY)
         loopCounterY +=1
         basic.pause(300)
     }
 
-// moving sprite up
+    // moving sprite up
     while (loopCounterX >= 0) {
         sprite.set(LedSpriteProperty.Y, loopCounterX)
         loopCounterX -=1
         basic.pause(300)
     }
 
-// moving sprite left
+    // moving sprite left
     while (loopCounterY >= 0) {
         sprite.set(LedSpriteProperty.X, loopCounterY)
         loopCounterY -=1
         basic.pause(300)
     }
 
-// resetting
+    // resetting
     sprite.delete()
     basic.clearScreen()
     basic.showIcon(IconNames.Happy)
